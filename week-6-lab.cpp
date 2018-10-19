@@ -6,8 +6,8 @@ int main()
 {
     int x;
 
-        cout << "Please Enter Your Test Score:" << endl;
-        cin >> x;
+        cout << "Please Enter Your Test Score:" << endl; // Out put to console to ask for test score
+        cin >> x; // user in put
 
         if (x >= 86 )
         {
@@ -19,7 +19,7 @@ int main()
             cout << "Grade = B" << endl;
         }
 
-        else if (x >= 60)
+        else if (x >= 60)                           //if statements for different out puts according to variable
         {
             cout << "Grade = C" << endl;
         }
